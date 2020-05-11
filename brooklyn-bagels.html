@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>All About Brooklyn Bagels</title>
+    
+</head>
+    <a href="index.html">Home Page</a> <br>
+    <a href="aboutme.html">About Me</a> 
+    <a href="contact.html">Contact</a>
+<body>
+  <div id="intro"> 
+    <br>
+    <h1 style="color: darkgreen; font-size: 89px; font-family: fantasy;">~Brooklyn Bagels~</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <ul style="font-size: 18px;">
+        <li><a href="#about">About Brooklyn Bagels</a></li>
+        <li><a href="#schedule">Feeding Schedule</a></li>
+        <li><a href="#form">Leave Brooklyn a Comment</a></li>
+        <li><a href="#form-b">Send a Treat</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+    <div id="about">
+        <h2>About Brooklyn Bagels</h2>
+        <p style="color: black;">Beautiful Black Lab Mix <br> Born on January 7th, 2020 <br> Date she became part of our family; March 14th, 2020:) <br> Gender; Baby Girl (Spayed) <br> Place of Birth; Plano, Texas <br> Current Weight; 16 lbs
+        </p>
+    </div>    
+    <img src="brooklyn-bagels.jpg" width="390" height="360" alt="Picture-of-Brooklyn-Bagels"/>
+    <div id="schedule"></div> 
+        <h2>Feeding Schedule</h2>
+        <table style="color: black;">
+            <tr>
+              <th></th>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th> 
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+              <th scope="col">Saturday</th>
+              <th scope="col">Sunday</th>
+            </tr>
+            <tr>
+              <th scope="row">Breakfast</th> <br>
+              <td>7am</td> 
+              <td>7am</td>
+              <td>7am</td>
+              <td>7am</td>
+              <td>7am</td>
+              <td>7am</td>
+              <td>7am</td>
+            </tr>
+            <tr>
+              <th scope="row">Lunch</th> <br>
+              <td>1pm</td>
+              <td>1pm</td>
+              <td>1pm</td>
+              <td>1pm</td>
+              <td>1pm</td>
+              <td>1pm</td>
+              <td>1pm</td>
+            </tr>
+            <tr> 
+              <th scope="row">Dinner</th> <br>
+              <td>7pm</td>
+              <td>7pm</td>
+              <td>7pm</td>
+              <td>7pm</td>
+              <td>7pm</td>
+              <td>7pm</td>
+              <td>7pm</td>
+            </tr>
+        </table>
+    </div>
+    <div id="form">
+    <form method="POST">
+        <h2>Comments for Brooklyn</h2>
+        <label for="ruffs"><b>Wuff's Up?</b></label>
+        <br>
+        <input type="text" name="ruffs" id="ruffs">
+        <a class="button" href="https://www.google.com">Send to Brooky</a>
+        <p><b>Had a wuff day?</b></p>
+        <input type="radio" name="wuff-answer" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <br>
+        <input type="radio" name="wuff-answer" id="no" value="no">
+        <label for="no">No</label>
+    </form>
+    </div> <br>  
+    <div id="form-b">
+        <form method="POST">
+            <h2>Send Brooklyn A Treat!</h2>
+            <p><b>Type of Treat</b></p>
+            <label for="treat-type">Giant Bone</label>
+            <input type="checkbox" name="treat-type" id="treat-type"> <br>
+            <label for="treat-type-b">Yak Stick</label>
+            <input type="checkbox" name="treat-type-b" id="treat-type-b"> <br>
+            <label for="treat-type-c">Some Other Cool Shit</label>
+            <input type="checkbox" name="treat-type-c" id="treat-type-c"> <br>
+            <br> <label for="treat"><b>Yes! send this many!</b></label>
+            <br>
+            <input type="number" name="treat" id="treat" step=1>
+            <a class="button" href="https://www.google.com">Fetch Bagels</a> <br>
+            <br> <label for="how-tasty"><b>How Tasty!?</b></label> <br>
+            <span>Yummy</span>
+            <input name="how-tasty" id="how-tasty" type="range" min=0.5 max="100" step="1">
+            <span>Super Yummy</span>
+            <br>
+            <br> <label for="command"><b>Give Brooklyn Bagels A Command</b></label>
+            <select name="command" id="command">
+                <option value="sit">Sit</option>
+                <option value="come">Come</option>
+                <option value="paw">Paw</option>
+                <option value="spin">Spin</option>
+                <option value="laydown">Laydown</option>
+                <option value="roll-over">Roll-over</option>
+                <option value="jump">Jump</option>
+                <option value="crawl">Crawl</option>
+                <option value="go-to-your-place">Go To Your Place</option>
+                <option value="stay">Stay</option>
+                <option value="wait">Wait</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="under">Under</option>
+                <option value="over">Over</option>
+                <option value="through">Through</option>
+                <option value="heel">Heel</option>
+                <option value="shhh">Shhh! (to be quiet)</option>
+                <option value="stand">Stand</option>
+                <option value="drop-it">Drop It</option>
+                <option value="out">Out</option>
+            </select>
+        </form>
+        </div> <br> 
+</body>
+</html>

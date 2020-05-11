@@ -1,0 +1,59 @@
+.big-text{
+    font-size: 50px;
+    color: rgba(212, 8, 93, 0.685);}
+.biggg-text{
+    font-size: 50px;
+    color: darkturquoise;
+}
+.table, td, th,tr {
+    border: 1px solid black;
+    
+    
+  }
+
+  .button{
+      font-weight: 600;
+      color:chartreuse;
+      background-color: darkblue;
+      padding:.2%;
+      text-decoration: none;
+  }
+  
+  .button:hover{
+    font-weight: 600;
+    color:chartreuse;
+    background-color: orchid;
+    padding:.1%;
+    text-decoration: none;
+}
+h2 {
+  font-size: 35px;
+  color: rgba(212, 8, 93, 0.685);
+  text-transform: capitalize;
+  text-decoration-line: underline;
+}
+body {
+  background-color: palegreen;
+  text-align: center;  
+}
+.main-text-color {
+  color: black;
+}
+#intro {
+  background-image:url("brookatwork.jpg") ;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration-color: beige;
+}
+div #intro {
+    content:brooklyn-bagels.jpg;
+}
+#title-intro,
+#intro-me,
+#intro-posts {
+    background-color: rgb(243, 192, 200);
+}
+div #about-me {
+    background-image: url("images/rockymt23.jpg");
+}
